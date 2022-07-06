@@ -1,11 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+$font: 'Nunito', sans-serif;
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.4;
   margin: 0;
+  font-family: inherit;
+}
+
+h1 {
+  font-size: 2.25rem;
+
+  @media (max-width: 48rem) {
+    font-size: 1.75rem;
+  }
+}
+
+h2 {
+  font-size: 1.75rem;
+
+  @media (max-width: 48rem) {
+    font-size: 1.5rem;
+  }
+}
+
+h3 {
+  font-size: 1.5rem;
+
+  @media (max-width: 48rem) {
+    font-size: 1.25rem;
+  }
+}
+
+h4 {
+  font-size: 1.25rem;
+
+  @media (max-width: 48rem) {
+    font-size: 1.125rem;
+  }
+}
+
+h5 {
+  font-size: 1.125rem;
+
+  @media (max-width: 48rem) {
+    font-size: 1rem;
+  }
+}
+
+h6 {
+  font-size: 1rem;
+
+  @media (max-width: 48rem) {
+    font-size: 0.875rem;
+  }
 }
 
 p, aside, figure, img, section, article, span, a {
   margin: 0;
+  font-family: inherit;
 }
 
 a,

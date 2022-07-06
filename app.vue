@@ -1,3 +1,9 @@
+<script>
+export default {
+  
+}
+</script>
+
 <template>
   <div class="container">
     <h1 class="title">Baby Name Generator</h1>

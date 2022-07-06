@@ -1,0 +1,19 @@
+@use './variables' as p;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: p.$primary;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
